@@ -1,5 +1,7 @@
 <template>
-    <div></div>
+    <div>
+        <slot></slot>
+    </div>
 </template>
 
 <script>
@@ -12,6 +14,7 @@
         background-color: lightcoral;
         padding: 30px;
         margin: 20px auto;
-        text-align: center
+        text-align: center;
+        color:white;
     }
 </style>

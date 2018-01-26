@@ -1,5 +1,8 @@
 <template>
-    <div></div>
+    <div>
+        <slot>
+        </slot>
+    </div>
 </template>
 
 <script>
@@ -12,6 +15,7 @@
         background-color: lightblue;
         padding: 30px;
         margin: 20px auto;
-        text-align: center
+        text-align: center;
+        color: purple;
     }
 </style>
